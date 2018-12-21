@@ -1,0 +1,7 @@
+实验数据 semeval-2008 task8
+train data 8000 sentences
+test data 20717 sentences
+
+
+1.
+word embedding: initialized with random float(0,1)
