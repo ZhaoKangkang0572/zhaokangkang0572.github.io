@@ -8,7 +8,7 @@ description: 一个普通的神经网路关系抽取
 
 ## 一句话概括
 本文使用神经网络来实现关系抽取并得到了state-of-the-art 。
-
+test
 ## 结论
 1. 只将token做为输入好过手工特征模型
 2. CNN好过LSTM
