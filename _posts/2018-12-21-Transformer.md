@@ -22,7 +22,7 @@ transformer由encoder和decoder组成
 
 模型结构如下
 ![/styles/images/transformer/Transformer-model-architecture.png]({{ '/styles/images/transformer/Transformer-model-architecture.png' | prepend: site.baseurl }})  
-
+![enter 214333333 here](./images/1576146609701.png)
 ### 编码栈
 encoder stack由6个结构图左边部分堆砌而成。这六层中，每一层有两个子层。一个子层是auto-regressivemulti-head self-attention，另一个是position wise fully connected feed-forward network. 在各个子层中采用残差(residual connection)加上标准化(normalization)的方式进行连接  
 每个子层的输出 $$d_{model}=512$$
