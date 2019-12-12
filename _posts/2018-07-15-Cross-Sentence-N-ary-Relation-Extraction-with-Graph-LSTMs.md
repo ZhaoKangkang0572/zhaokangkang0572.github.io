@@ -19,7 +19,7 @@ description: Cross-Sentence N-ary, Graph LSTMs
 
 ## 一句话概括
 本文使用一个Graph LSTMs来实现跨句多元关系抽取。
-
+![enter description here](https://raw.githubusercontent.com/ZhaoKangkang0572/imgbed/master/小书匠/1576148907035.png)
 
 ## 引言
 前人的工作多是在单个句子上的二元关系抽取，限制了可用信息
