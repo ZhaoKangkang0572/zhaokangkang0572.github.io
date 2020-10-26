@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 基础知识TBD
+title: 1基础知识TBD
 category: MLTheory
 tags: 
 description: 
