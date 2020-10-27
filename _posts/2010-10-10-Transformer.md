@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  Transformer---attention is all you need
-date:   2018-12-21 00:00:00 +0800
 categories: DL
 tag: paper transformer
 ---
