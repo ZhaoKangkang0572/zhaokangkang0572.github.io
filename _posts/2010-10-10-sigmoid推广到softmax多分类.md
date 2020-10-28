@@ -1,5 +1,5 @@
 ---
-title: 2020-8-24sigmoid推广到softmax多分类
+title: sigmoid推广到softmax多分类
 tags: 新建,模板,小书匠
 renderNumberedHeading: true
 grammar_cjkRuby: true
