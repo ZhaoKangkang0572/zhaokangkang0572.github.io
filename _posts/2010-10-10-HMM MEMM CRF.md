@@ -33,5 +33,7 @@ $$
 P(O,I)=\prod \limits_{j}^{n}P(I_j\|I_{j-1})P(O\|I_1,I_2,...,I_n)\\
 =P(O_1\|I_1,I_2,...,I_n)*...*P(O_n\|I_1,I_2,...,I_n)*\prod \limits_{j=1}^{n}P(I_j\|I_{j-1})
 $$
+
+但是，这样的话，对于每一个$P(O_n\|I_1,...,I_j)$,如果使用有监督方法去统计的话，很有可能无法出现概率为0的情况，而如果使用EM算法的话,即便算出来了，也无法算出$P(O_n\|I_j)$
 ## Reference
 https://www.cnblogs.com/hellochennan/p/6624509.html
