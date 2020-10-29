@@ -15,18 +15,13 @@ description: sentence-level
 
 对于CRF的话，其判断这个标注成立的概率为 $P= F(s转移到s,'我'表现为s)....$F为一个函数，是在全局范围统计归一化的概率而不是像MEMM在局部统计归一化的概率。
 
-graph LR;
-  A-->B
-  B-->C
-  C-->D
-  D-->A
-  ```mermaid!
+<div class="mermaid">
 graph TD;
-A-->B;
-A-->C;
-B-->D;
-C-->D;
-```
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+</div>
 
 #### 从HMM到MEMM
 由于HMM的两个假设：观测独立，隐藏状态只受前一个隐藏状态影响
