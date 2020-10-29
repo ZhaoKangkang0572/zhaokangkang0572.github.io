@@ -26,8 +26,12 @@ $P= P(s转移到s)*P('我'表现为s)* P(s转移到b)*P('爱'表现为s)* ...*P(
 ![enter description here](https://raw.githubusercontent.com/ZhaoKangkang0572/imgbed/master/小书匠/1603939112168.png)
 这时，表达式由
 $$
-
+P(O,I)=\prod \limits_{j}^{n}P(I_j\|I_{j-1})P(O_j\|i_j)
 $$
-
+变为
+$$
+P(O,I)=\prod \limits_{j}^{n}P(I_j\|I_{j-1})P(O\|I_1,I_2,...,I_n)\\
+=P(O_1\|I_1,I_2,...,I_n)*...*P(O_n\|I_1,I_2,...,I_n)*\prod \limits_{j=1}^{n}P(I_j\|I_{j-1})
+$$
 ## Reference
 https://www.cnblogs.com/hellochennan/p/6624509.html
